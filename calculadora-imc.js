@@ -1,7 +1,7 @@
     let p = 60
     let alt = 1.60
     
-    const imc = p/alt;
+    const imc = p/(alt*alt);
 
     if (imc < 18.5){
         console.log("Abaixo do peso")
@@ -13,4 +13,5 @@
         console.log("Obesidade grau 2")
     } else {
         console.log("Obesidade grau 3")
+
     }
